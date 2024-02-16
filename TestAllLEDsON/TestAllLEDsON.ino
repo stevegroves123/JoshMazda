@@ -1,8 +1,8 @@
 // the setup function runs once when you press reset or power the board
-relay1 = 4;
-relay2 = 7;
-relay3 = 8;
-relay4 = 12;
+int relay1 = 4;
+int relay2 = 7;
+int relay3 = 8;
+int relay4 = 12;
 
 void setup() {
   // initialize digital pins to output to the RELAYs.
